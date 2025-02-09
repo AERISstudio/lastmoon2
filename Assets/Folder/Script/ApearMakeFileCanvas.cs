@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
-public class CanvasFadeManager : MonoBehaviour
+public class GameEventManager : MonoBehaviour
 {
     public CanvasGroup canvas1; // 기존 캔버스 (20% 불투명)
     public CanvasGroup canvas2; // 새로 나타날 캔버스 (페이드 인)
