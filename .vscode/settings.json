@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "last_moon2.sln"
+    "dotnet.defaultSolution": "lastmoon2.sln"
 }
