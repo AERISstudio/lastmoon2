@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 5cdd7957a0a36b043b75a98e9a607411
+  productGUID: b4d7f8abd6238ef40b18ab2077c4b948
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: 10minGame2024
+  productName: last_moon2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -609,14 +609,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 10minGame2024
+  metroPackageName: last_moon2
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 10minGame2024
+  metroApplicationDescription: last_moon2
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -687,11 +687,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 7bfd718b-053d-460b-a5f3-d9b7f60fde13
+  cloudProjectId: 4a2c9622-893d-4964-92fb-7547a9e9905f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 10minGame2024
-  organizationId: ristudio-689ab91f-9890-4b84-b58d-f8ce9ec0f381
+  projectName: last_moon2 2025-02-10_00-05-55
+  organizationId: biro425
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
