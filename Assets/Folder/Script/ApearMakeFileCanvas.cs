@@ -20,6 +20,16 @@ public class GameEventManager : MonoBehaviour
         startButton.onClick.AddListener(StartGame);
     }
 
+    void Update()
+    {
+        // ESC 키를 누르면 canvas2를 비활성화
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            canvas1.alpha = 1f;
+            canvas2.gameObject.SetActive(false);
+        }
+    }
+
     void StartGame()
     {
         StartCoroutine(FadeOutIn());
