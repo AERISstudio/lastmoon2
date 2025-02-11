@@ -1350,6 +1350,7 @@ GameObject:
   - component: {fileID: 1010254950}
   - component: {fileID: 1010254949}
   - component: {fileID: 1010254948}
+  - component: {fileID: 1010254952}
   m_Layer: 5
   m_Name: MainCanvas
   m_TagString: Untagged
@@ -1444,6 +1445,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &1010254952
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010254947}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1067636907
 GameObject:
   m_ObjectHideFlags: 0
@@ -2084,10 +2097,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97a64b92c17158e41bf5b9f6073b90b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObject: {fileID: 1010254947}
-  fadeDuration: 4
-  canvasGroup: {fileID: 0}
-  isFading: 0
 --- !u!4 &1414580486
 Transform:
   m_ObjectHideFlags: 0
@@ -2115,10 +2124,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2943b657caede0b4290acfbc1db8ebcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvas1: {fileID: 0}
-  canvas2: {fileID: 0}
-  startButton: {fileID: 0}
-  fadeDuration: 1.5
+  canvas1: {fileID: 1010254952}
+  canvas2: {fileID: 2005786448}
+  startButton: {fileID: 371279680}
+  fadeDuration: 0.2
 --- !u!114 &1414580488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2538,6 +2547,7 @@ GameObject:
   - component: {fileID: 2005786446}
   - component: {fileID: 2005786445}
   - component: {fileID: 2005786444}
+  - component: {fileID: 2005786448}
   m_Layer: 5
   m_Name: AfterStartButtonCanvas
   m_TagString: Untagged
@@ -2631,6 +2641,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!225 &2005786448
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005786443}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
