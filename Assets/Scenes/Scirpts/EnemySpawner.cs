@@ -1,3 +1,5 @@
+using System.Linq.Expressions;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
@@ -6,7 +8,7 @@ public class EnemySpawner : MonoBehaviour
     public float spawnInterval = 2.0f; // 스폰 간격
     public Vector2 spawnAreaMin; // 스폰 영역 최소 좌표
     public Vector2 spawnAreaMax; // 스폰 영역 최대 좌표
-
+    public bool die = false;
     void Start()
     {
         // 일정 시간마다 적을 스폰
@@ -21,7 +23,12 @@ public class EnemySpawner : MonoBehaviour
             Random.Range(spawnAreaMin.y, spawnAreaMax.y)
         );
 
+        die = false;
         // 적 오브젝트 생성
-        Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        GameObject clone = Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+        if (die){
+            Destroy(clone);
+        }
     }
+    
 }
