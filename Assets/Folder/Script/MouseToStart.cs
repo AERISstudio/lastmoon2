@@ -7,6 +7,7 @@ public class MouseToStart : MonoBehaviour
 
     private CanvasGroup canvasGroup;
     private bool isFading = false;
+    private bool hasClicked = false;
 
     void Start()
     {
@@ -24,9 +25,10 @@ public class MouseToStart : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && !isFading) // 마우스 왼쪽 버튼 클릭
+        if (Input.GetMouseButtonDown(0) && !isFading && !hasClicked) // 마우스 클릭 한 번만 가능
         {
             StartCoroutine(FadeIn());
+            hasClicked = true;
         }
     }
 
